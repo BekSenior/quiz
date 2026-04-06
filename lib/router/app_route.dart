@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
-import 'package:quiz/features/register/sign_page.dart';
+import 'package:quiz/features/register/sign_in.dart';
 
 import '../features/splash/splash_screen.dart';
 
@@ -19,7 +19,7 @@ final GoRouter router = GoRouter(
     GoRoute(
       path: Routes.signIn,
       name: Routes.signIn,
-      builder: (_, __) => const SignPage(),
+      builder: (_, __) => const SignIn(),
     ),
   ],
 );
